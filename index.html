@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Streaming Revenue Data</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Music Streaming Platform Revenue Data</h1>
+
+  <div style="max-width: 800px; margin: 30px auto;">
+    <canvas id="revenueChart"></canvas>
+  </div>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Payout per Stream (USD)</th>
+        <th>Monthly Users (Millions)</th>
+        <th>Type</th>
+        <th>Streams for Minimum Wage</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <p>Data source: <a href='https://artistpayout.com' target="_blank">Artist Payout</a></p>
+</body>
+</html>
